@@ -1,0 +1,74 @@
+# global patterns
+
+# commonly used editors
+# vim
+*.swp
+
+# generated files etc
+config.cache
+config.status
+config.log
+*.d
+*.depend
+*.pc
+*.P
+*.mode1v3
+*.pbxuser
+*.[oa]
+*.l[oa]
+*.so
+*.so.*
+*.dylib
+*.lineno
+*.py[co]
+*.ver
+*.rej
+*.orig
+*.bak
+
+# Windows specific generated files
+*.exp
+*.ilk
+*.ncb
+*.pdb
+*.suo
+*.sdf
+*.opensdf
+*.vcproj.*.user
+*.vcxproj.*.user
+*.vcxproj.user
+*.obj
+
+.libs/
+.deps/
+
+# /
+/.dummy
+/.dummy.in
+/Makefile
+/Makefile.include
+/aclocal.m4
+/autom4te.cache/
+/build-aux/config.guess
+/build-aux/config.sub
+/build-aux/install-sh
+/build-aux/missing
+/autotools
+/BUILD
+/xbmc.log
+/xbmc.old.log
+/Makefile.depend
+/config.status
+/config.h
+/config.h.in
+/config.h.in~
+/configure
+/stamp-h1
+/xbmc.bin
+/xbmc-xrandr
+/svn_revision.h
+
+# /addons/
+/addons/screensaver.drempels/Drempels_win32dx.xbs
+/xbmc/screensavers/Drempels/libs
+/xbmc/screensavers/Drempels/objs

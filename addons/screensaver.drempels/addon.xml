@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="screensaver.drempels"
+  version="1.0.0"
+  name="Drempels"
+  provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1"/>
+  </requires>
+  <extension
+    point="xbmc.ui.screensaver"
+    library_windx="Drempels_win32dx.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A psychotherapeutic screensaver</summary>
+    <description lang="en">Drempels is a screensaver making colorful, swirling, hallucinogenic patterns that resemble a hurricane or tornado.</description>
+    <platform>windx</platform>
+  </extension>
+</addon>
